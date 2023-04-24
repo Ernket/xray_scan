@@ -5,7 +5,11 @@
 - 编写环境：python3.9.7
 
 # 用法
-将`xray.exe`和`rad.exe`放置在同目录下，然后新建`url.txt`，在里面写入自己扫描的url，接着运行
+1. 安装运行库
+```
+pip3 install -r requirements.txt
+```
+2. 将`xray.exe`和`rad.exe`放置在同目录下，然后新建`url.txt`，在里面写入自己扫描的url，接着运行
 ```
 python3 xray_scan.py
 ```
